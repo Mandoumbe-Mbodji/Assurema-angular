@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous Contacter</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Lien vers votre feuille de style CSS -->
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gestion.html">Gestion Assurance</a></li> <!-- Page de gestion de l'assurance -->
+    </ul>
+  </nav>
+</header>
+
+<section class="contact">
+  <h1>Nous Contacter</h1>
+  <p>Pour toute question ou demande, veuillez remplir le formulaire ci-dessous :</p>
+  <form action="contact.php" method="POST">
+    <input type="text" name="name" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Compagnie d'Assurance Automobile</p>
+</footer>
+
+</body>
+</html>
