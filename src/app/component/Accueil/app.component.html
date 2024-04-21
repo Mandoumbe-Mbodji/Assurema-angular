@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Assurema</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="Pages/services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Pages/gestion.html">Gestion Assurance</a></li> <!-- Page de gestion de l'assurance -->
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Bienvenue à notre compagnie d'assurance automobile<div>Assurema</div></h1>
+  <p>Protégez votre voiture avec nous.</p>
+  <a href="get_quote.html" class="btn">Obtenir un devis</a> <!-- Page pour obtenir un devis -->
+</section>
+
+<section class="services">
+  <h2>Nos Services</h2>
+  <ul>
+    <li>Assurance responsabilité civile</li>
+    <li>Assurance tous risques</li>
+    <li>Assistance dépannage</li>
+    <li>Assurance vol</li>
+    <li>Assurance conducteur</li>
+  </ul>
+</section>
+
+<section class="contact-form">
+  <h2>Contactez-nous</h2>
+  <form action="contact.php" method="POST">
+    <input type="text" name="name" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Compagnie d'Assurance</p>
+</footer>
+
+</body>
+</html>
